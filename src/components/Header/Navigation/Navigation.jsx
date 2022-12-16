@@ -9,9 +9,9 @@ const [nav, setNav] = useState(['Портфолио', 'О компании', 'К
     return (
         <div>
              <ul className={styles.list}>
-                <li className={styles.item}>Портфолио</li>
-                <li className={styles.item}>О компании</li>
-                <li className={styles.item}>Контакты</li>
+             <a href="#portfolio"><li className={styles.item} >Портфолио</li></a> 
+                <li className={styles.item} id="aboutCompany">О компании</li>
+                <li className={styles.item} id="contacts">Контакты</li>
              </ul>
         </div>
     )
