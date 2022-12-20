@@ -1,0 +1,80 @@
+.container
+  background: url(./../../assets/photo/SectionHero.png) no-repeat center
+  height: 1024px
+  width: auto
+  left: 0
+  right: 0
+  top: 0
+  margin: 0
+  background-size: cover
+  @media screen and (max-width: 600px)
+    padding-top: 24px
+
+
+.content
+  margin: 24px 32px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: fixed
+  left: 0
+  right: 0
+  @media screen and (max-width: 600px)
+    position: static
+    margin: 0 32px
+
+.clickableContainer
+  display: flex
+
+.clickableContainer a:active,
+.clickableContainer a:hover,
+.clickableContainer a:link,
+.clickableContainer a:visited,
+.clickableContainer a:link
+  text-decoration: none
+
+
+.button
+  display: flex
+  align-items: center
+  padding: 10px 20px
+  gap: 10px
+  height: 44px
+  right: 32px
+  top: calc(50% - 44px / 2 - 0.5px)
+  background: #D22020
+  border-radius: 50px
+  border: none
+  color: white
+  font:
+    family: Inter-SemiBold
+    weight: 500
+    size: 16px
+  cursor: pointer
+
+.description
+  color: #343A40
+  padding: 110px 32px
+  display: flex
+  justify-content: space-evenly
+  flex-direction: column
+
+a.text:active,
+a.text:hover,
+a.text
+  text-decoration: none
+  color: #666
+
+
+.clickableContainer
+  @media screen and (max-width: 600px)
+    display: none
+
+.mobile
+  display: none
+  @media screen and (max-width: 600px)
+    display: block
+
+
+
+
